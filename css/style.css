@@ -1,0 +1,99 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    background-color: #FFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.logo-top {
+    color: #2E2F42;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu-link {
+    font-weight: 500;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+.site-address {
+    font-size: 16px;
+    font-style: normal;
+}
+
+h1 {
+    color: #FFF;
+    background-color: #2E2F42;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.order-page {
+    color: #FFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.order-page:hover {
+    background-color: #404BBF;
+}
+
+.order-page:hover,
+.order-page:focus {
+    color: #404BBF;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.text-page {
+    color: #434455;
+}
+
+.personnel-page {
+    background-color: #F4F4FD;
+}
+
+.menu-our-team {
+    background-color: #FFF;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.logo-bottom {
+    color: #F4F4FD;
+}
