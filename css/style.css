@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .link {
@@ -31,7 +34,16 @@ body {
 }
 
 .menu-link {
+    color: #2e2f42;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
@@ -61,14 +73,14 @@ body {
 .order-page {
     color: #FFF;
     background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
     cursor: pointer;
     letter-spacing: 0.04em;
 }
 
 .order-page:hover {
     background-color: #404BBF;
-    font-weight: 500;
-    line-height: 1.5
 }
 
 .order-page:hover,
@@ -82,9 +94,11 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio-title {
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -93,6 +107,7 @@ body {
 }
 
 .benefits-title {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -100,6 +115,7 @@ body {
 }
 
 .team-list {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -107,9 +123,16 @@ body {
 }
 
 .projects-list {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text-page {
+    color: #434455;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -128,4 +151,9 @@ body {
 
 .logo-bottom {
     color: #F4F4FD;
+}
+
+.text-bottom {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
