@@ -1,10 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFF;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .link {
@@ -14,9 +11,11 @@ body {
 .logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-top {
@@ -25,6 +24,10 @@ body {
 
 .menu {
     list-style-type: none;
+}
+
+.menu-item {
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -43,11 +46,16 @@ body {
     font-style: normal;
 }
 
-h1 {
-    color: #FFF;
+.title-page {
     background-color: #2E2F42;
+}
+
+.title {
+    color: #FFF;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .order-page {
@@ -59,26 +67,50 @@ h1 {
 
 .order-page:hover {
     background-color: #404BBF;
+    font-weight: 500;
+    line-height: 1.5
 }
 
 .order-page:hover,
 .order-page:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
-h2 {
+.team-title {
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-h3 {
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.benefits-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.text-page {
-    color: #434455;
+.team-list {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.projects-list {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .personnel-page {
@@ -89,7 +121,7 @@ h3 {
     background-color: #FFF;
 }
 
-footer {
+.page-bottom {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
